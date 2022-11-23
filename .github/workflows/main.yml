@@ -23,4 +23,8 @@ jobs:
     - run: chmod +x cool_script.sh # granting permission access to our script 
     - run: ./cool_script.sh # running the script
 
+  env_vars_job:
+    runs-on: ubuntu-latest
+    steps:
+    - run: 
 
