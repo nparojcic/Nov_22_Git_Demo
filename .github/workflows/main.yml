@@ -28,4 +28,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "hello $name"
-    - run: echo ${{secret.password}}
+    - run: echo ${{secrets.password}}
