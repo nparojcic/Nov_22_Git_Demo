@@ -7,9 +7,11 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
+    - run: sleep 10
     - run: echo "Hello World!"
     - run: touch FileMadeByWorkflow.txt
     - run: echo "this is some text on the file" >> FileMadeByWorkFlow.txt
-    - run: echo .
+    - run: cat FileMadeByWorkflow.txt
+    - run: ls -a
     - run: whoami
-    - run: sleep 15
+   
