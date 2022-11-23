@@ -1,0 +1,22 @@
+
+
+
+
+
+name = "Nik"
+age = 22
+
+dog: 
+  name = "patch"
+  breed = "bordecolli"
+  colour = "tricoloured, white, brown, black"
+  age = 15
+  cute = true
+  personality:
+    calm = true
+    loving = true
+    bites_people = "Never"
+    
+
+
+
