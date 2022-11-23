@@ -11,7 +11,7 @@ jobs:
     - run: echo "Hello World!"
     - run: touch FileMadeByWorkflow.txt
     - run: echo "this is some text on the file" >> FileMadeByWorkFlow.txt
-    - run: cat FileMadeByWorkflow.txt
+    - run: cat FileMadeByWorkFlow.txt
     - run: ls -a
     - run: whoami
    
