@@ -12,3 +12,4 @@ jobs:
     - run: echo "this is some text on the file" >> FileMadeByWorkFlow.txt
     - run: echo .
     - run: whoami
+    - run: sleep 15
