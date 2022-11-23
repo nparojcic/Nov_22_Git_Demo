@@ -1,5 +1,5 @@
 #! /bin/bash
 
 echo "Hello Nik"
-echo demo_folder <<  " this is the new demo folder u created"
+echo "this is the new demo folder u created during this echo"<<  demo_folder
 ls -larth
