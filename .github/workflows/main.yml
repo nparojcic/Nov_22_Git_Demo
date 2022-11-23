@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   actions_demo:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
   
-  steps:
-  - run: echo "Hello World!"
-  - run touch FileMadeByWorkflow.txt
-  - run echo FileMadeByWorkFlow.txt
-  - run echo .
-  - run pwd
+    steps:
+    - run: echo "Hello World!"
+    - run: touch FileMadeByWorkflow.txt
+    - run: echo "this is some text on the file" >> FileMadeByWorkFlow.txt
+    - run: echo .
+    - run: whoami
