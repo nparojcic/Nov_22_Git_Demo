@@ -2,10 +2,12 @@ name: First Workflow
 
 on: [push]
 
+env:
+  name: "Niko"
+
 jobs:
   actions_demo:
     runs-on: ubuntu-latest
-  
     steps:
     - run: echo "Hello World!"
     - run: touch FileMadeByWorkflow.txt
@@ -25,4 +27,4 @@ jobs:
   env_vars_job:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "hello world"
+    - run: echo "hello $name"
