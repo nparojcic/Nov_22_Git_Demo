@@ -1,0 +1,14 @@
+name: First Workflow
+
+on [push]
+
+jobs:
+  actions_demo:
+  runs-on: ubuntu-latest
+  
+  steps:
+  - run: echo "Hello World!"
+  - run touch FileMadeByWorkflow.txt
+  - run echo FileMadeByWorkFlow.txt
+  - run echo .
+  - run pwd
