@@ -25,4 +25,9 @@ jobs:
   env_vars_job:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
     - run: echo "hello world
+=======
+    - run: echo "hello world"
+
+>>>>>>> 7bd8cc8740522771f97a507373262c3c72eaf34c
