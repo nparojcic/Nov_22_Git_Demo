@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-    - run: sleep 10
     - run: echo "Hello World!"
     - run: touch FileMadeByWorkflow.txt
     - run: echo "this is some text on the file" >> FileMadeByWorkFlow.txt
@@ -26,5 +25,4 @@ jobs:
   env_vars_job:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "hello $world"
-
+    - run: echo "hello world
